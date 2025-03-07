@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/arcade.png" type="image/x-icon">
+    <title>StreetFighter-UNIR</title>
+</head>
+<body>
+    <h1>To live is to fight, to fight is to live!</h1>
+    <div>
+        <table id="tablaPersonajes">
+            <th id="tituloTabla" colspan="4">STREET FIGHTER</th>
+            <tr>
+                <td id="ken">
+                    <div class="nombres">KEN</div>
+                </td>
+                <td id="chunli">
+                    <p class="nombres">CHUN LI</p>
+                </td>
+                <td id="zangief">
+                    <p class="nombres">ZANGIEF</p>
+                </td>
+                <td id="dhalsim">
+                    <p class="nombres">DHALSIM</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="ryu">
+                    <p class="nombres">RYU</p>
+                </td>
+                <td id="ehonda">
+                    <p class="nombres">E HONDA</p>
+                </td>
+                <td id="blanka">
+                    <p class="nombres">BLANKA</p>
+                </td>
+                <td id="guille">
+                    <p class="nombres">GUILLE</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="thawk">
+                    <p class="nombres">T HAWK</p>
+                </td>
+                <td id="feilong">
+                    <p class="nombres">FEI LONG</p>
+                </td>
+                <td id="deejay">
+                    <p class="nombres">DEE JAY</p>
+                </td>
+                <td id="cammy">
+                    <p class="nombres">CAMMY</p>
+                </td>
+            </tr>
+            <tr>
+                <td id="balrog">
+                    <p class="nombres">BALROG</p>
+                </td>
+                <td id="vega">
+                    <p class="nombres">VEGA</p>
+                </td>
+                <td id="sagat">
+                    <p class="nombres">SAGAT</p>
+                </td>
+                <td id="mbison">
+                    <p class="nombres">M BISON</p>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <h2>FORMULARIO DE INSCRIPCION PARA JUGAR A STREET FIGTHER</h2>
+
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank" id="formulario">
+        <fieldset>
+            <legend id="tituloFormulario">DATOS PERSONALES</legend>
+                <label id="texto">
+                    Nombre:
+                    <input type="text" name="nombre" required>
+                </label>
+                <label id="texto">
+                    Apellidos:
+                    <input type="text" name="apellidos" required>
+                </label>
+                <label id="texto">
+                    Dirección Postal:
+                    <div class="direccion">
+                        <div class="direccion-linea">
+                            <input type="text" id="calle" name="calle" placeholder="Calle">
+                            <input type="text" id="numero" name="numero" placeholder="Nº">
+                            <input type="text" id="numero" name="piso" placeholder="Piso">
+                          </div>
+                          <div class="direccion-linea">
+                            <input type="text" id="codigo-postal" name="codigo-postal" placeholder="Código Postal">
+                            <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+                          </div>
+                    </div>
+                </label>
+                <label id="texto">
+                    Nick:
+                    <input type="text" name="nick" required>
+                </label>
+                <label id="texto">
+                    Correo Electrónico:
+                    <input type="email" required>
+                </label>
+        </fieldset> 
+        <fieldset>
+            <legend id="tituloFormulario">SEXO USUARIO</legend>
+            <div class="opcion">
+                <input type="radio" name="sexo" id="hombre">
+                <label for="hombre">Hombre</label>
+            </div>
+            <div class="opcion">
+                <input type="radio" name="sexo" id="mujer">
+                <label for="mujer">Mujer</label>
+            </div>
+            <div class="opcion">
+                <input type="radio" name="sexo" id="prefiero">
+                <label for="prefiero">Prefiero no decir</label>
+            </div>
+        </fieldset> 
+        <fieldset>
+            <label id="texto">Fecha nacimiento: 
+                <input type="date" name="fnacimiento">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend id="tituloFormulario">PERSONAJES</legend>
+            <label id="texto">
+                Selecciona el personaje: <input type="text" name="personaje">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend id="tituloFormulario">COMENTARIOS</legend>
+            <textarea class="textarea"></textarea>
+        </fieldset>  
+        <label>
+            <input  class="botones" type="submit" value="Enviar">
+            <input  class="botones" type="reset" value="Borrar"> 
+        </label>
+        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "streetfighter";
+    src: url(font/street.otf);
+}
+
+body {
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    font-family: "streetfighter";
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+#tablaPersonajes {
+    width: 600px;
+    height: 800px;
+    border: 10px solid rgb(237, 175, 5);
+    border-style: outset;
+    border-radius: 10px;
+    margin: auto;
+    background-color: black;
+}
+
+#tituloTabla {
+    background-image: url(img/fondocabecera.jpg);
+    background-size: contain;
+    color: whitesmoke;
+    opacity: 0.5;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.nombres{
+    font-weight: bold;
+    font-size: 18px;
+    color: darkorange;
+    text-align: center;
+    margin-bottom: 8em;
+    margin-top: 0em;
+
+}
+
+td,tr {
+    width: 40px;
+    height: 45px;
+    font-family: "streetfighter";
+    border: 2px solid grey;
+    border-radius: 10px;
+   
+    
+}
+
+#ken {
+    background-image: url(img/ken.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    
+}
+
+#chunli {
+    background-image: url(img/ChunLi.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#zangief {
+    background-image: url(img/Zangief.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#dhalsim {
+    background-image: url(img/Dhalsim.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#ryu {
+    background-image: url(img/Ryu.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#ehonda {
+    background-image: url(img/EHonda.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#blanka {
+    background-image: url(img/Blanka.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#guille {
+    background-image: url(img/Guille.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#thawk {
+    background-image: url(img/THawk.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#feilong {
+    background-image: url(img/Feilong.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#deejay{
+    background-image: url(img/DeeJay.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#cammy{
+    background-image: url(img/Cammy.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#balrog {
+    background-image: url(img/Balrog.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#vega {
+    background-image: url(img/Vega.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#sagat {
+    background-image: url(img/Sagat.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#mbison {
+    background-image: url(img/MBison.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+h2 {
+    font-family: "streetfighter";
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+#formulario {
+    border: 10px solid rgb(237, 175, 5);
+    border-style: outset;
+    border-radius: 10px;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+
+#tituloFormulario {
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    font-family: "streetfighter";
+    box-sizing: border-box;
+}
+#texto {
+    color: white;
+    font: Verdana;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+}
+.opcion {
+    display: flex; 
+    margin: auto; 
+    color: white;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: auto; 
+    max-width: 300px; 
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.direccion {
+    display: flex;
+    flex-direction: column;
+    gap: 1px; 
+    margin-bottom: 1px; 
+    width: 80%;
+    box-sizing: border-box;
+  }
+  .direccion-linea {
+    display: flex; 
+    gap: 1px;  
+    margin-top: 0px;
+    box-sizing: border-box;
+  }
+  .textarea {
+    width: 560px;
+    height: 170px;
+    box-sizing: border-box;
+  }
+  .botones {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: "streetfighter";
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
